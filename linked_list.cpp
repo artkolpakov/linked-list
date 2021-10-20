@@ -265,3 +265,19 @@ void Linked_List::sort_descending(){
   }
   head = selection_sort(head);
 }
+
+void Linked_List::list_revese(){
+  Node *temp = head->next;
+  Node *prev = head;
+  Node *next = NULL;
+
+  head->next = NULL;
+  while (temp != nullptr){
+    next = temp->next;
+    temp->next = prev;
+    prev = temp;
+
+    temp = next;
+  }
+  head = prev;
+}

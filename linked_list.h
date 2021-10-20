@@ -206,6 +206,8 @@ public:
 * and prints it
 *****************************************************/
   void check_for_prime();
+
+  void list_revese();
 };
 
 

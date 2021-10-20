@@ -2,7 +2,7 @@
 ** Program: linked_list.cpp
 ** Author: Artem Kolpakov
 ** Date: 06/06/2021
-** Description: That's a program with data structure in it that is a
+** Description: This is a program with data structure in it that is a
 * finite set of ordered elements (nodes) linked to each other by pointers - linked list.
 * Each element of my linked list contains a field with data (int val), as well as a pointer
 * (link) to the next element *next. This allows me to efficiently perform the operations of adding
@@ -60,6 +60,10 @@ do{
   } while (again == "y");
 
   cout << "Your final linked list is: " << endl;
+  linked_list.print();
+
+  linked_list.list_revese();
+  cout << "Your linked list after the revesre function: " << endl;
   linked_list.print();
 
   cout << "Sort ascending or descending (a or d)?: ";
