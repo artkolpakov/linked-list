@@ -16,8 +16,4 @@ Here is important information about my linked list program:
       sort the nodes in ascending/descending order, print the list, free the memory, get the length of our list, get the number of prime numbers stored in our list.
       sort_descending() function is implemented using a recursive Selection Sort algorithm. 5) driver.cpp - serves as the driver for my entire program, it creates a linked list and then performs certain operations by calling the needed functions for the linked list
       depending on the input. If user decides to run the program again, then all the nodes are deleted from the linked list, and it gets filled again.
-      6) Makefile - the file that we use to compile the entire program by simply typing make, this time I used the "magic makefile". In my linked_list.h header
-      file I cited the "geeksforgeeks" website, I used the content of "geeksforgeeks" website to implement 3 of my functions (Node* merge(Node* , Node* ),
-      Node* selection_sort(Node* ), void delete_all_nodes() ). However, it doesn't mean that I simply copied the code from there, the code shown there was adapted
-      and changed by me for my program. In my driver.cpp file starting from line 52 you can test some other functions that are not used
-      in my program (they are commented out). The instructions are provided there, uncomment it separately when testing.
+      6) Makefile - the file that we use to compile the entire program by simply typing make, this time I used the "magic makefile". 
