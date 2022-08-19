@@ -1,5 +1,7 @@
 # linked-list
-linked list implementation in (C++) by Artem Kolpakov 
+
+Linked list implementation in (C++) by Artem Kolpakov 
+
 date: 06/06/2021
 
 Here is important information about my linked list program:
