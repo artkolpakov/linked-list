@@ -6,7 +6,7 @@ date: 06/06/2021
 
 Here is important information about my linked list program:
 
-First of all, I want to mention that the description of how all of my functions work/what they are doing when called is specified in the header files
+First of all, I want to mention that the description of how all of my functions work and their implementation details is specified in the header files
 above each of the functions. Here, I will provide a description of the program (how my entire program works) and some additional information.
 There are 6 total files that I am using in my program: 
       
@@ -23,7 +23,7 @@ the linked list itself - consists of elements of the same type (Node), linked wi
 Each item in the list has a pointer to the next item. The last item in the list points to nullptr. The element to which there is no pointer is 
 the first (head) element of my list. The link in each node (next) points to the next node in the list. The functions contained in linked_list.cpp 
 add can insert a new value to our list, sort the nodes in ascending/descending order, print the list, get the length of the list,
-get the number of prime numbers stored in the list, and revese the list. Sort_descending() function is implemented using a recursive Selection Sort algorithm, while sort_ascending function is implemented using a recursive Merge Sort algorithm.
+get the number of prime numbers stored in the list, and reverse the list. Sort_descending() function is implemented using a recursive Selection Sort algorithm, while sort_ascending function is implemented using a recursive Merge Sort algorithm.
       
 3) driver.cpp:
 
