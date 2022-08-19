@@ -20,8 +20,8 @@ alternate constructor (that helps us to do the proper initialization), as well a
 the linked list itself - consists of elements of the same type (Node), linked with the help of pointers. 
 Each item in the list has a pointer to the next item. The last item in the list points to nullptr. The element to which there is no pointer is 
 the first (head) element of my list. The link in each node (next) points to the next node in the list. The functions contained in linked_list.cpp 
-add can insert a new value to our list, sort the nodes in ascending/descending order, print the list, free the memory, get the length of our list,
-get the number of prime numbers stored in our list. sort_descending() function is implemented using a recursive Selection Sort algorithm. 
+add can insert a new value to our list, sort the nodes in ascending/descending order, print the list, get the length of the list,
+get the number of prime numbers stored in the list, and revese the list. Sort_descending() function is implemented using a recursive Selection Sort algorithm, while sort_ascending function is implemented using a recursive Merge Sort algorithm.
       
 3) driver.cpp:
 
@@ -31,4 +31,4 @@ and it gets filled again.
       
 4) Makefile:
 
-the file that is used to compile the entire program by simply typing 'make'.
+the file that is used to compile the entire program by simply typing 'make'. After using the makefile, you can then use ./linked_list to run the program.
